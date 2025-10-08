@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wild Routes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="wrapper">
+
+    <!-- Navigation -->
+    <nav id="a">
+      <div class="nav-container">
+        <div class="logo">Wild Routes</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <img id="b" src="mountain.jpg" alt="mountain image">
+      <div class="text-left">
+        "A journey of a thousand miles,<br> begins with a single<br> step"
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h1>ABOUT US!</h1>
+      <div class="text-center">
+        At wild routes, travel isn't about visiting<br>
+        new places, it is about discovering adventure,<br>
+        building friendships and making memories<br>
+        that last a lifetime!!!
+      </div>
+
+      <div class="boxes">
+        <div class="box">
+          <img src="resort.jpg" height="180px" width="230px" alt="Resort">
+          <p>"Experience luxury and<br>comfort at our beachfront resort"</p>
+        </div>
+        <div class="box">
+          <img src="rest.jpg" height="180px" width="230px" alt="Swimming Pool">
+          <p>"Relax and unwind<br>in our crystal clear swimming pool"</p>
+        </div>
+        <div class="box">
+          <img src="walk.jpg" height="180px" width="230px" alt="Tropical Walk">
+          <p>"Feel the tropical breeze surrounded<br>by lush coconut trees"</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>Contact us</h1>
+      <div class="login-form">
+        <h2>Login Portal</h2>
+        <form onsubmit="return login()">
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" required><br>
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" required><br>
+          <input type="submit" value="Login">
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
